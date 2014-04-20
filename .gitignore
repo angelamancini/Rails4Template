@@ -69,3 +69,5 @@ brakeman.html
 /config/settings/local.rb
 
 config/database.yml
+
+log/development.log
