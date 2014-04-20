@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
- 
-  root 'lists#index'
 
 
-  get 'lists/my_lists' => 'lists#my_lists', via: :get, as: :my_lists
+
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
