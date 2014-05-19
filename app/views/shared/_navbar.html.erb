@@ -3,9 +3,8 @@
     <div class='container'>
       <div class="navbar-header pull-right">
         <% if logged_in? %>
-          <div class="navbar-brand">Logged in as, <strong><%= current_user.name %></strong> |</div>
-          <div class=" pull-right">
-            <div><%= link_to 'Logout', logout_path, class: 'navbar-brand' %></div>
+          <div class="navbar-text navbar-right">Logged in as, <strong><%= current_user.name %></strong> |         
+            <%= link_to 'Logout', logout_path %>
 		      </div>
         <% end %>
       </div>
