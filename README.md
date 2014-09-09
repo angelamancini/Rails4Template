@@ -1,4 +1,5 @@
 #Rails 4 App Template
+A bootstrap template to quick-start a rails app.
 
 Includes:
  * Thin server
