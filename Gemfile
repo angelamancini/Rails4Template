@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use Bootstrap with SASS
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.2.0'
 
 # Use FontAwesome with SASS, will have to disable Glifyicons in Boostrap first
 # gem 'font-awesome-sass'
